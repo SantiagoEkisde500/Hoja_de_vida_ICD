@@ -1,8 +1,10 @@
-.titulo{
-    width: 800px;
-    height: 1200px;
+
+body{
+    width: 50%;
+    height: auto;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     padding-top: 25px;
     font-family: cursive;
@@ -29,21 +31,33 @@
     border-radius: 10px;
 }
 
-table{border-spacing: 5px;font-size: small;
-    text-align: center; border: 5px;
-    border-radius: 5px;border-style: solid;
-    margin-left: 70px;margin-top: 15px;
-    font-size:medium; border-radius: 8px;}
+table{
+    border-spacing: 5px;
+    text-align: center; 
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    margin: auto;
+    margin-top: 15px;
+    font-size: large; 
+    border-radius: 8px;
+}
 
 h1{border: 5px; border-radius: 5px; border-style: solid;background-color: rgb(255, 0, 0);border-radius: 10px;}
 
-a{padding-left: 15px;padding-right: 15px;padding-top: 2px;padding-bottom: 2px;
-    border: 5px; border-radius: 5px; border-style: solid;background-color: rgb(255, 0, 0);border-radius: 10px;}
+a{
+    padding-left: 15px;
+    padding-right: 15px;padding-top: 2px;
+    padding-bottom: 2px;
+    border: 5px; 
+    border-style: solid;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;}
 
 .box-1{
     width:auto;
     height: 200px;
-    font-family: cursive;
+    font-family: bahnschrift;
     font-weight: bold;
     background-color: rgba(6, 253, 39, 0);
     margin: 2em;
@@ -62,16 +76,14 @@ a{padding-left: 15px;padding-right: 15px;padding-top: 2px;padding-bottom: 2px;
 
 .box-2{
     width:auto;
-    height: 300px;
-    font-family: cursive;
+    font-family: bahnschrift;
     font-weight: bold;
     background-color: rgba(6, 253, 39, 0);
     margin: 2em;
 }
 .box-2-1{
     width: 400px;
-    height: 300px;
-    font-family: cursive;
+    font-family: bahnschrift;
     background-color: rgb(0, 0, 0);
     float: left;
     border: 5px; border-style: solid;border-radius: 5px;
@@ -79,8 +91,7 @@ a{padding-left: 15px;padding-right: 15px;padding-top: 2px;padding-bottom: 2px;
 
 .box-3{
     width:auto;
-    height: 200px;
-    font-family: cursive;
+    font-family: bahnschrift;
     font-weight: bold;
     background-color: rgba(6, 253, 39, 0);
     margin: 2em;
@@ -90,7 +101,7 @@ a{padding-left: 15px;padding-right: 15px;padding-top: 2px;padding-bottom: 2px;
 .box-4{
     width:auto;
     height: 200px;
-    font-family: cursive;
+    font-family: bahnschrift;
     font-weight: bold;
     background-color: rgba(6, 253, 39, 0);
     margin: 2em;
@@ -103,12 +114,30 @@ a{padding-left: 15px;padding-right: 15px;padding-top: 2px;padding-bottom: 2px;
     background-color: rgba(0, 0, 255, 0);
     float: left;
 }
+.box-5{
+    margin: 20px;
+    padding-top: 20px;
+}
 
-th{border: solid black 5px; border-radius: 5px;
-    padding-top: 1px;padding-bottom: 1px;padding-left: 5px;padding-right: 5px;border-radius: 8px;}
+th{
+    border: solid black 5px; 
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+}
 
-td{border:solid black 5px; border-radius: 5px; 
-    padding-top: 1px;padding-bottom: 1px;padding-left: 5px;padding-right: 5px;border-radius: 8px;}
+td{
+    border:solid black 5px; 
+    border-radius: 5px; 
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+}
 
 .columna{
     background-color: gray;
